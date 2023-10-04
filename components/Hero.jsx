@@ -9,6 +9,7 @@ function Hero() {
             </h1>
             <p className='hero__subtitle'>
                 streamline your car rental experience
+                with our effortless booking process
             </p>
             <CustomButton/>
         </div>
