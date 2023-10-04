@@ -1,8 +1,14 @@
 import React from 'react'
-
+import Image from 'next/image'
 function CustomButton() {
   return (
-    <div>CustomButton</div>
+    <button
+    disabled={false}
+    type={button}
+    className={`custom-btn`}
+    onClick={() => {}}>
+
+    </button>
   )
 }
 

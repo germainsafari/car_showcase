@@ -1,5 +1,5 @@
 import React from 'react'
-
+import  CustomButton  from './CustomButton';
 function Hero() {
   return (
     <div>
