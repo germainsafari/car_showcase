@@ -7,7 +7,7 @@ function CustomButton() {
     type={button}
     className={`custom-btn`}
     onClick={() => {}}>
-
+      <span className={`flex-1`}></span>
     </button>
   )
 }
