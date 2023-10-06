@@ -1,6 +1,7 @@
 import { relative } from "path";
 import "./globals.css";
 import type { Metadata } from "next";
+import { Footer, Navbar } from "@/components";
 
 export const metadata: Metadata = {
   title: "car Hub",
