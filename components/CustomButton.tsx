@@ -6,7 +6,7 @@ const CustomButton = ({
   title,
   containerStyles,
   handleClick,
-  btnType,
+  btnType = "button",
 }: CustomButtonProps) => {
   return (
     <button
