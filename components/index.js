@@ -1,5 +1,8 @@
 import Hero from "./Hero";
-import {CustomButton, Footer, Navbar} from '../components'
+import CustomButton from "./CustomButton";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
 export {
     Hero,
     CustomButton,
