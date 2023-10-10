@@ -22,7 +22,12 @@ const Hero = () => {
             handleClick = {handleScroll}
             />
         {/* remove the following code */}
-
+        <CustomButton
+              title="Special Offers"
+              containerStyles="bg-primary-red text-white rounded-full mt-5 ml-5"
+              // Add relevant handle click action for this button
+              handleClick={() => {}}
+            />
 
 
         {/* here */}
