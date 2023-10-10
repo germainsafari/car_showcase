@@ -21,6 +21,11 @@ const Hero = () => {
             containerStyles="bg-primary-blue text-white rounded-full mt-10"
             handleClick = {handleScroll}
             />
+        {/* remove the following code */}
+
+
+
+        {/* here */}
         </div>
         <div className='hero__image-container'>
           <div className='hero__image'>
