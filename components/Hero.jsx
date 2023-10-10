@@ -16,6 +16,13 @@ const Hero = () => {
                 streamline your car rental experience
                 with our effortless booking process
             </p>
+            {/* remove this as well */}
+            <p className='hero__description'>
+                From compact cars to luxurious SUVs, discover a range of options tailored to meet your needs.
+            </p>
+
+
+            {/* here */}
             <CustomButton
             title="Explore Cars"
             containerStyles="bg-primary-blue text-white rounded-full mt-10"
