@@ -1,7 +1,7 @@
-import Image from "next/image";
-import { CustomerFilter, Hero, SearchBar } from "@/components";
 import { fetchCars } from "@/utils";
-
+import { HomeProps } from "@/types";
+import { fuels, yearsOfProduction } from "@/constants";
+import { CarCard, ShowMore, SearchBar, CustomFilter, Hero } from "@/components";
 export default async function Home({ searchParams }: HomeProps) {
   const allCars = await fetchCars({
     manufacturer: searchParams.manufacturer || "",
@@ -10,6 +10,7 @@ export default async function Home({ searchParams }: HomeProps) {
     limit: searchParams.limit || 10,
     model: searchParams.model || "",
   });
+
   return (
     <main className="overflow-hidden">
       <Hero />
