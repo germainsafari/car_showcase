@@ -1,6 +1,8 @@
+"use client"
+
 import React from 'react'
 
-function CarCard() {
+function CarCard({car}) {
   return (
     <div>CarCard</div>
   )

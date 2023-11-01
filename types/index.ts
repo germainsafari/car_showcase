@@ -1,3 +1,4 @@
+import exp from 'constants';
 import {MouseEventHandler} from 'react'
 
 export interface CustomButtonProps {
@@ -12,4 +13,8 @@ export interface CustomButtonProps {
 export interface SearchManufacturerProps {
     manufacturer: string;
     setManufacturer : (manufacturer: string) => void; 
+}
+
+export interface CarProps {
+    
 }
