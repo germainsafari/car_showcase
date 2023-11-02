@@ -11,6 +11,8 @@ export {
     Navbar,
     Footer,
     SearchBar,
-    CustomerFilter,
-    SearchManufacturer
+    CustomFilter,
+    SearchManufacturer,
+    ShowMore,
+    CarCard,
 }
