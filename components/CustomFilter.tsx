@@ -1,7 +1,7 @@
 import React from "react";
 
-function CustomFilter() {
+function CustomerFilter() {
   return <div>CustomerFilter</div>;
 }
 
-export default CustomFilter;
+export default CustomerFilter;
