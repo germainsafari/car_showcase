@@ -33,6 +33,6 @@ function ShowMore() {
       )}
     </div>
   );
-}
+};
 
 export default ShowMore;
