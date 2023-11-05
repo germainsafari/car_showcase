@@ -1,4 +1,10 @@
-import React from "react";
+"use client";
+
+import { useRouter } from "next/navigation";
+
+import { ShowMoreProps } from "@types";
+import { updateSearchParams } from "@utils";
+import { CustomButton } from "@components";
 
 function ShowMore() {
   return (
