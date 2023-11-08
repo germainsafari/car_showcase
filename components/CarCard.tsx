@@ -1,32 +1,5 @@
 "use client";
 
-<<<<<<< HEAD
-import {useState} from 'react'
-import Image from 'next/image'
-import { CarProps } from '@/types'
-import  CustomButton  from './CustomButton'
-
-interface carCardProps{
-    car: CarProps;
-};
-
-const CarCard = ({ car }: carCardProps) => {
-    const {city_mpg, year, make, model, transmission, drive} = car;
-  return (
-    <div className='car-card group'>
-        <div className='car-card__content'>
-            <h2 className='car-card__content-title'>
-                {make} {model}
-            </h2>
-        </div>
-        <p >
-            <span>
-                Car Rent
-            </span>
-        </p>
-    </div>
-  )
-=======
 import { useState } from "react";
 import Image from "next/image";
 
@@ -37,7 +10,6 @@ import CarDetails from "./CarDetails";
 
 interface CarCardProps {
   car: CarProps;
->>>>>>> b4e2872532ae83373efb287491056ce5579f525e
 }
 
 const CarCard = ({ car }: CarCardProps) => {
