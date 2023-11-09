@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
-
-import { SearchManufacturer } from ".";
+import Image from "next/image";
+import React, { useState } from "react";
+import { useRouter } from "next/navigation";
+import SearchManufacturer from "./SearchManufacturer";
 
 const SearchBar = () => {
   const [manufacturer, setManufacturer] = useState("");
